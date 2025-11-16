@@ -68,18 +68,21 @@ nav a:hover {
   flex: 1;
 }
 
-.learn-about .container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+learn-about {
   padding: 40px 0;
 }
 
 .learn-about h2 {
-  grid-column: span 3;
   font-size: 24px;
   color: #48BB78;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 .card {
@@ -154,5 +157,43 @@ nav a:hover {
 .article-body a {
   text-decoration: none;
   color: #5A67D8;
+}
+
+.newsletter {
+  background-color: #48BB78;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.newsletter .btn {
+  background-color: #5A67D8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #4A5568;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
 
