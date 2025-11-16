@@ -68,4 +68,31 @@ nav a:hover {
   flex: 1;
 }
 
+.learn-about .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.learn-about h2 {
+  grid-column: span 3;
+  font-size: 24px;
+  color: #48BB78;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #E2E8F0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 21px;
+  color: #48BB78;
+  margin-top: 10px;
+}
 
